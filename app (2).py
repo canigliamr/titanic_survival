@@ -5,7 +5,7 @@ import streamlit as st
 
 # Set the base directory to where the script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "survival_model.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "titanic.pkl")
 
 # Load the trained model
 with open(MODEL_PATH, "rb") as f:
